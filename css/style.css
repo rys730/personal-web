@@ -57,6 +57,10 @@ body>.greetings>hr {
     gap: 2rem;
 }
 
+.icons>a {
+    color: inherit;
+}
+
 .about {
     margin-top: 7rem;
     font-size: 1.5rem;
