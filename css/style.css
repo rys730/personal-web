@@ -91,3 +91,35 @@ body>.greetings>hr {
     text-align: center;
     letter-spacing: 0.1rem;
 }
+
+
+@media only screen and (max-width: 768px) {
+    body {
+      /* margin: 2rem; */
+    }
+
+    .about {
+        font-size: 1.2rem;
+        margin-top: 4rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .tech {
+        width: 100%;
+    }
+
+    .tech>h2 {
+        font-size: 1.5rem;
+    }
+
+    .stacks {
+        
+        gap: .5rem;
+    }
+
+    .project-content>svg {
+        height: 15rem;
+        margin-bottom: 2rem;
+    }
+  }
