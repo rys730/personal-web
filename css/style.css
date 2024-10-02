@@ -92,12 +92,12 @@ body>.greetings>hr {
     letter-spacing: 0.1rem;
 }
 
+svg:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
 
 @media only screen and (max-width: 768px) {
-    body {
-      /* margin: 2rem; */
-    }
-
     .about {
         font-size: 1.2rem;
         margin-top: 4rem;
@@ -121,5 +121,77 @@ body>.greetings>hr {
     .project-content>svg {
         height: 15rem;
         margin-bottom: 2rem;
+    }
+  }
+
+@media only screen and (max-width: 480px) {
+    body {
+      margin: 0 2rem;
+    }
+
+    header {
+        margin-top: 2rem;
+    }
+
+    header>.heading{
+        font-size: 1.5rem;
+    }
+
+    header>.menu {
+        gap: 2rem;
+        font-size: 1rem;
+    }
+    
+    .greetings {
+        margin-top: 3rem;
+        font-size: 1rem;
+    }
+
+    .icons{
+        margin-top: 3rem;
+        gap: 2rem;
+    }
+
+    svg{
+        width: 25px;
+        height: 25px;
+    }
+
+    .about {
+        font-size: .7rem;
+        padding: .7rem;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        letter-spacing: .08rem;
+    }
+
+    .tech {
+        width: 100%;
+    }
+
+    .tech>h2 {
+        font-size: 1rem;
+    }
+
+    .stacks {
+        margin-top: 1rem;
+        gap: .5rem;
+    }
+
+    .project-content {
+        margin-top: 3rem;
+        font-size: 1rem;
+    }
+
+    .project-content>svg {
+        height: 10rem;
+        width: 10rem;
+        margin-bottom: 2rem;
+    }
+
+    svg:hover {
+        transform: scale(1.2);
+        transition: all 0.5s;
     }
   }
